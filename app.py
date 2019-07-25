@@ -1,7 +1,6 @@
 from flask import *
 from flask_compress import Compress
 import os
-from multiprocessing.pool import ThreadPool
 import ssl
 
 compress = Compress()
